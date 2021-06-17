@@ -1,0 +1,33 @@
+<p>
+  <mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon home-icon" aria-label="Example icon-button with home icon">
+      <mat-icon>menu_book</mat-icon>
+    </button>
+    <span>{{title}}</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button [matMenuTriggerFor]="menu"  aria-label="Example icon-button with menu">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>
+        <mat-icon>format_list_bulleted</mat-icon>
+        <span>Wyświetl książki</span>
+      </button>
+      <button mat-menu-item>
+        <mat-icon>add</mat-icon>
+        <span>Dodaj książkę</span>
+      </button>
+      <button mat-menu-item>
+        <mat-icon>upgrade</mat-icon>
+        <span>Edytuj książkę</span>
+      </button>
+      <button mat-menu-item>
+        <mat-icon>remove</mat-icon>
+        <span>Usuń książkę</span>
+      </button>
+    </mat-menu>
+  </mat-toolbar>
+</p>
+
+<app-books class="container"></app-books>
+

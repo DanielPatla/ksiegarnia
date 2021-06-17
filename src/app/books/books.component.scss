@@ -1,0 +1,36 @@
+.image {
+  height: 300px;
+  width: 200px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.example-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  max-height: 560px;
+  margin-bottom: 2.5%;
+  margin-left: 2.5%;
+  align-items: center;
+  .card-content {
+    display: flex;
+    justify-content: flex-start;
+    width: 69%;
+    p {
+      text-align: left;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+
+  }
+  .card-content :hover {
+    p :hover {
+      -webkit-line-clamp: 5 !important;
+      -webkit-box-orient: vertical;
+    }
+  }
+}

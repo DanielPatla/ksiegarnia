@@ -1,0 +1,15 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  justify-content: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+}
+
+.mat-card {
+  margin-bottom: 10px;
+}
