@@ -3,15 +3,32 @@
     <mat-card-title>{{book.title}}</mat-card-title>
     <mat-card-subtitle>{{book.author}}</mat-card-subtitle>
   </mat-card-header>
-  <img mat-card-image class='image' src="../..//assets/{{book.photo}}" alt="Zdjęcie okładki tomiku">
+  <img mat-card-image class='image' src="../..//assets/{{book.photo}}" alt="Modlitwy dla opornych">
   <mat-card-content class="card-content">
     <p>
       {{book.description}}
     </p>
   </mat-card-content>
   <mat-card-actions>
-    <button mat-button>Polub</button>
-    <button mat-button>Udostępnij</button>
+    <button mat-button><mat-icon>favorite</mat-icon>Polub</button>
+    <button mat-button><mat-icon>shopping_cart</mat-icon>Do koszyka</button>
+  </mat-card-actions>
+</mat-card>
+
+<mat-card class ="example-card">
+  <mat-card-header class="card-header">
+    <mat-card-title>{{book1.title}}</mat-card-title>
+    <mat-card-subtitle>{{book1.author}}</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image class='image' src="../..//assets/{{book1.photo}}" alt="Stary człowiek i morze">
+  <mat-card-content class="card-content">
+    <p>
+      {{book1.description}}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button><mat-icon>favorite</mat-icon>Polub</button>
+    <button mat-button><mat-icon>shopping_cart</mat-icon>Do koszyka</button>
   </mat-card-actions>
 </mat-card>
 

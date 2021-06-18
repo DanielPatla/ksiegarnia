@@ -11,10 +11,17 @@ export class BooksComponent implements OnInit {
   id: 1,
   title: 'Modlitwy dla opornych',
   author: 'Jaś Kapela',
-  price: 45,
   description: 'Tomik poezji łączący doświadczenia współczesności z poetycką materią.',
   photo: 'Modlitwy_dla_opornych.jpg'
   };
+
+  book1: Book = {
+    id: 2,
+    title: 'Stary człowiek i morze',
+    author: 'Ernest Hemingway',
+    description: 'Historia człowieka, który wypłynął w morze i połknął go wieloryb.',
+    photo: 'staryimorze.jpg'
+  }
 
   constructor() { }
 
