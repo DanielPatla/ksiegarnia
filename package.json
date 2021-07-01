@@ -20,7 +20,10 @@
     "@angular/platform-browser": "~12.0.4",
     "@angular/platform-browser-dynamic": "~12.0.4",
     "@angular/router": "~12.0.4",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
     "gitignore": "^0.6.0",
+    "mongoose": "^5.13.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.1.0",
     "zone.js": "~0.11.4"
@@ -38,5 +41,17 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
     "typescript": "~4.2.3"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.4.",
+  "main": "MongoDB.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielPatla/ksiegarnia.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielPatla/ksiegarnia/issues"
+  },
+  "homepage": "https://github.com/DanielPatla/ksiegarnia#readme"
 }
