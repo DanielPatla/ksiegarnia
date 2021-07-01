@@ -5,27 +5,12 @@
     </button>
     <span>{{title}}</span>
     <span class="example-spacer"></span>
-    <button mat-icon-button [matMenuTriggerFor]="menu"  aria-label="Example icon-button with menu">
-      <mat-icon>menu</mat-icon>
+    <button mat-icon-button class="example-icon add-icon" aria-label="Example icon-button with home icon">
+      <mat-icon>add</mat-icon>
     </button>
-    <mat-menu #menu="matMenu">
-      <button mat-menu-item>
-        <mat-icon>format_list_bulleted</mat-icon>
-        <span>Wyświetl książki</span>
-      </button>
-      <button mat-menu-item>
-        <mat-icon>add</mat-icon>
-        <span>Dodaj książkę</span>
-      </button>
-      <button mat-menu-item>
-        <mat-icon>change_circle</mat-icon>
-        <span>Edytuj książkę</span>
-      </button>
-      <button mat-menu-item>
-        <mat-icon>delete</mat-icon>
-        <span>Usuń książkę</span>
-      </button>
-    </mat-menu>
+    <button mat-icon-button class="example-icon list-icon" aria-label="Example icon-button with list icon">
+      <mat-icon>list</mat-icon>
+    </button>
   </mat-toolbar>
 </p>
 
